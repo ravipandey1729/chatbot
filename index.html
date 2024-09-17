@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Medical Assistant Chatbot</h1>
+        <nav>
+            <a id="home-link">Home</a>
+            <a id="chatbot-link">Chat with Bot</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Medical Assistant</h2>
+            <p>Our Medical Assistant Chatbot is here to provide you with quick, reliable information about common medical concerns. Whether you have questions about symptoms, medications, or general health advice, our AI-powered assistant is ready to help.</p>
+            <p>Key features of our chatbot:</p>
+            <ul>
+                <li>24/7 availability for your medical queries</li>
+                <li>Up-to-date information on a wide range of health topics</li>
+                <li>Easy-to-understand explanations of medical terms</li>
+                <li>Guidance on when to seek professional medical help</li>
+            </ul>
+            <p><strong>Please note:</strong> This chatbot is for informational purposes only and does not replace professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for medical concerns.</p>
+        </section>
+
+        <section id="chatbot" class="hidden">
+            <h2>Chat with our Medical Assistant</h2>
+            <div id="chat-container">
+                <div id="chat-messages"></div>
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Type your message here...">
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div id="prompt-section">
+                <h3>Suggested prompts:</h3>
+                <ul>
+                    <li>What are common cold symptoms?</li>
+                    <li>How can I improve my sleep?</li>
+                    <li>What are the signs of dehydration?</li>
+                    <li>How often should I exercise?</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+        
+    </script>
+</body>
+</html>
